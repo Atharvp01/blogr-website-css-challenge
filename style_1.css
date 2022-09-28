@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.firstpage{
+    background-image: linear-gradient(to right, #FE846D, #FE4958 ); 
+    height: 70vh;
+    border-radius: 0px 0px 0px 50px;
+
+}
+
+.header{
+    color: white !important;
+    padding:20px 0px 0px 120px;
+    display: flex;
+    
+
+}
+
+label{
+    padding: 14px 0px 0px 30px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.sign-upbutton{
+    margin-left: 30px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: #FE4958;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.sign-upbutton:hover{
+    background-color: #FE4958;
+    color: antiquewhite;
+    border: 1px solid white;
+}
+
+.loginbutton{
+    margin-left: 450px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #FE4958;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.loginbutton:hover{
+    background-color: white;
+    color: #FE4958;
+}
+
+
+.mainheading h1, p{
+    margin: 50px 0px 0px 350px;
+    color: white;
+
+}
+
+.mainheading h1{
+    margin-top: 80px;
+    font-size: 3rem;
+}
+
+.mainheading p{
+    font-size: 1rem;
+    /* text-align: center; */
+    margin-left: 500px;
+   
+}
+
+.startfreebtn{
+    margin: 30px 20px 0px 500px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: #FE4958;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.startfreebtn:hover{
+    background-color: #FE846D;
+    color: antiquewhite;
+    border: 1px solid white;
+}
+
+.learnmorebtn{
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: antiquewhite;
+    background-color: #FE4958;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.learnmorebtn:hover{
+    background-color: white;
+    color: #FE4958;
+}
+
+.secondpage h1{
+    color: #1D3A55;
+    text-align: center;
+    margin-top: 80px;
+   
+}
+
+.bg-image{
+    float: right;
+    height: 700px;
+}
+
+.secondpage h3{
+    font-size: 1.5rem;
+}
+.secondpage, .textfirst{
+    font-size: 1rem;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #1D3A55;
+}
+
+.secondpage h3{
+    
+    color: #1D3A55;
+    margin: 120px 0px 0px 40px;
+   
+}
+
+.thirdpage{
+    height: 50vh;
+    background-color: #3A3B59;
+    margin-top: 200px;
+    overflow: hidden; 
+    border-radius:0px 0px 0px 100px;
+}
+
+.bg-circles{
+    height: 666px;
+    position: relative;
+    bottom: 547px;
+    left: -172px;
+    
+}
+
+.phone-illustrations{
+    position: relative;
+    bottom: 355px;
+    height: 431px;
+    left: 154px;
+}
+
+.thirdpage h1, p{
+    position: relative;
+    bottom: 570px;
+    
+}
+
+.thirdpage p{
+    margin-left: 4px;
+    width: 465px;
+}
+
+.text-inside h1{
+    color: rgb(255, 255, 255);
+    left: 700px;
+}
+.text-inside p{
+    color: rgb(255, 255, 255);
+    left: 700px;
+}
+
+.lastpage h1{
+    color: #1D3A55;
+    text-align: center;
+    margin-top: 80px;
+   
+}
+
+.bg-laptop{
+    float: left;
+    position: relative;
+    left: -285px;
+    height: 700px;
+}
+
+.lastpage h3{
+    font-size: 1.5rem;
+}
+.lastpage, .textsecond{
+    font-size: 1rem;
+    padding-left: 39px;
+    padding-top: 40px;
+    color: #1D3A55;
+    margin: 0px -25px 0px 0px;
+    position: relative;
+    right: 85px;
+}
+
+.lastpage h3{
+    
+    color: #1D3A55;
+    margin: 120px 0px 0px 40px;
+   
+}
+
+.footer{
+    margin-top: 265px;
+    height: 30vh;
+    background-color: #24242c;
+    display: flex;
+    color: white; 
+    padding: 50px;
+    border-radius: 0px 100px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 145px;
+    line-height: 2;
+    
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 145px;
+    line-height: 2;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 145px;
+    line-height: 2;
+}
+
